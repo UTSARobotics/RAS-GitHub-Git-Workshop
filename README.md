@@ -1,9 +1,8 @@
 # RAS-GitHub-Git-Workshop
-Code for people to pull and get the python hang man game on to their own repo.
 
 ## Installations Needed:
 - Python
-- VS Code
+- VS Code/terminal
 - GIT
 
 ## Steps:
@@ -38,5 +37,32 @@ Code for people to pull and get the python hang man game on to their own repo.
    ```
    ssh -T git@github.com
    ```
-    
 
+
+## Git/Github Activity
+1. Initialize Git
+   ```
+   git init
+   git status
+   ```
+2. Add both repositories to your pull/fetch respectively
+   ```
+   git remote add origin {RAS Github Repo}
+   git remote set-url --push origin {Your Repo}
+   git remote -v
+   ```
+3. Grab the files from the RAS repository
+   ```
+   git pull origin main
+   ```
+4. Save changes and make a "commit" for your repository
+   ```
+   git add .
+   git commit - m “+ Python Hangman”
+   ```
+5. Push your changes to your own repository
+   ```
+   git push origin master
+   git log
+   ```
+6. Have fun playing Hangman :)
