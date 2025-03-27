@@ -58,11 +58,13 @@
 4. Save changes and make a "commit" for your repository
    ```
    git add .
-   git commit - m “+ Python Hangman”
+   git commit -m “+ Python Hangman”
    ```
 5. Push your changes to your own repository
    ```
    git push origin master
+   ```
+   ```
    git log
    ```
 6. Have fun playing Hangman :)
